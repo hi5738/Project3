@@ -42,3 +42,15 @@ void Event::editDate(int day, MONTH month, int year, int hour, int minutes) {
 void Event::editDescript(string descript) {
 	description = descript;
 }
+
+string Event::getTitle() {
+	return title;
+}
+
+string Event::getDescription() {
+	return description;
+}
+
+tm Event::getDate() {
+	return date;
+}

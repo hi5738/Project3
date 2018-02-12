@@ -22,5 +22,8 @@ public:
 	void editTitle(string newTitle);
 	void editDate(int day, MONTH month, int year, int hour, int minutes);
 	void editDescript(string descript);
+	string getTitle();
+	string getDescription();
+	tm getDate();
 };
 
